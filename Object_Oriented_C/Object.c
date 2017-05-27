@@ -14,7 +14,7 @@ void __ObjectFunctionInit (Object *a){
 	int __getId(void){
 		return a->id;
 	}
-	int __idFactorial( Object *a){
+	int __idFactorial(){
 		int i;
 		int sum = 1;
 		for(i=2;i<=a->id;i++){
